@@ -1,0 +1,77 @@
+.contact {
+    font-family: 'Raleway', sans-serif;
+    background-image: url(../imagenes/fondos/keyboard.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    filter: brightness(90%);
+    width: 100%;
+    height: 670px;
+}
+
+.contact a {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    font-size: 6em;
+    color: #ffffff;
+}
+
+.contact > .conte-contact {
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 3fr;
+
+}
+
+.contact > .conte-contact > .fondo-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+}
+
+ .contact > .conte-contact > .fondo-contact p{
+    font-size: 1em;
+    color: #ffffff;
+    text-align: justify;
+    background-color: rgba(0, 0, 0, 40%);
+    padding: 40px;
+}
+
+.contact > .conte-contact > .datos-contact form {
+    width: 70%;
+    margin: auto;
+    background: rgba(250, 250, 250, 60%);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.contact > .conte-contact > .datos-contact input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+    textarea {
+        height: 200px;
+        max-width: 100%;
+    }
+
+.contact > .conte-contact > .datos-contact #boton {
+    background-color: rgba(0, 0, 0, 75%);
+    color: #ffffff;
+    font-size: 1em;
+    padding: 20px;
+    transition: 0.5s;
+}
+
+.contact > .conte-contact > .datos-contact #boton:hover {
+    background-color:rgba(250, 250, 250, 60%);
+    color: #000000;
+    font-size: 1.1em;
+}

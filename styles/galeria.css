@@ -1,0 +1,46 @@
+.galeria{
+    background-image: url(../imagenes/fondos/fondo3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: brightness(90%);
+    width: 100%;
+    height: 670px;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+.galeria > .titulo_ga {
+    display: flex;
+    justify-content: center;
+    padding: 20px 200px 0 200px;
+}
+
+.galeria > .titulo_ga a {
+   text-decoration: none;
+   color: #161616;
+   font-size: 6em; 
+}
+
+.galeria > .botton_ga {
+    display: flex;
+    justify-content: center;
+}
+
+.galeria > .botton_ga a {
+    text-decoration: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 2em;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px;
+    border-radius: 45px;
+    margin-top: 450px;
+ }
+
+ .galeria > .botton_ga a:hover {
+    color: #000000;
+    background-color: #cbcbcc;
+ }

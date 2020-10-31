@@ -1,0 +1,48 @@
+.about {
+    background-image: url(../imagenes/fondos/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    filter: brightness(80%);
+    width: 100%;
+    height: 800px;
+    background-color: silver;
+    
+}
+
+.about > .lado_one {
+    background-color: #000000;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2px;
+    height: 300px;
+    padding: 60px;
+}
+
+.about > .lado_one a {
+    color: #ffffff;
+    font-size: 6em;
+    font-family: 'Raleway', sans-serif;
+    text-decoration: none;
+}
+
+.about > .lado_one p {
+    color: #ffffff;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+}
+
+.about > .lado_two {
+    display: grid;
+    grid-template-columns: 2fr;
+
+}
+
+.about > .lado_two p {
+    color: #000000;
+    font-size: 1em;
+    font-family: 'Raleway', sans-serif;
+    text-align: justify;
+    padding: 40px 60px 10px 800px;
+}
